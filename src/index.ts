@@ -17,8 +17,9 @@ app.use(
     credentials: true
   })
 );
-app.get("/", (c) =>
-  c.json({
+
+app.get("/", (ctx) =>
+  ctx.json({
     message: "Running happily ✨🌧️"
   })
 );
