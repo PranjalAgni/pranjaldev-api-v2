@@ -20,7 +20,7 @@ app.use(
 
 app.get("/", (ctx) =>
   ctx.json({
-    message: "Running happily ✨🌧️"
+    message: "I am running fast & happily ✨🌧️"
   })
 );
 
