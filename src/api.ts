@@ -15,4 +15,10 @@ api.get("/quotes/random", (c) => {
   });
 });
 
+api.get("/resume", (c) => {
+  return c.json({
+    message: "This downloads the resume"
+  });
+});
+
 export default api;
